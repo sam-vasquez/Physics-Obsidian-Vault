@@ -1,0 +1,1 @@
+Backup of the [Obsidian](https://obsidian.md) vault I maintain for my personal physics-related notes. Any missing references are because only the primary notes folder has been made public, other folders contain course-related materials I am not permitted to share.
