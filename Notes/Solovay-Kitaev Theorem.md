@@ -1,0 +1,8 @@
+---
+tags:
+  - Quantum-Information
+  - todo
+---
+"An unsatisfactory aspect of the universality of controlled- and single qubit unitary gates is that the single qubit gates form a continuum, while the methods for fault-tolerant quantum computation described in Chapter 10 work only for a discrete set of gates. Fortunately, also in Chapter 4 we saw that any single qubit gate may be approximated to arbitrary accuracy using a finite set of gates, such as the controlled- gate, Hadamard gate H, phase gate S, and π/8 gate. We also gave a heuristic argument that approximating the chosen single qubit gate to an accuracy required only Θ(1/ ) gates chosen from the finite set. Furthermore, in Chapter 10 we showed that the controlled- , Hadamard, phase and π/8 gates may be implemented in a fault-tolerant manner.  In this appendix we show that a much faster rate of convergence than Θ(1/ ) may be achieved. The Solovay–Kitaev theorem shows that for any gate U on a single qubit, and given any > 0, it is possible to approximate U to a precision using Θ(logc(1/ )) gates from a fixed finite set, where c is a small constant approximately equal to 2. The best possible value for c isn’t known yet, so we are going to explain the proof of the Solovay–Kitaev theorem for c approximately equal to 4, and then in the end of appendix problems outline a method that may be used to reduce c down closer to 2. We will also prove that c cannot be less than 1; determining the best possible value of c between 1 and 2 is an open problem!"
+
+Appendix 3 of [[(2010) Quantum Computing and Quantum Information - Nielsen, Chuang]].

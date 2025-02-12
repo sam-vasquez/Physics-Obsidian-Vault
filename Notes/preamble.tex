@@ -1,0 +1,60 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp} 
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% Don't indent paragraphs, leave some space between them.
+\usepackage{parskip}
+
+% Hide page number when page is empty
+\usepackage{emptypage}
+
+\usepackage{subcaption}
+
+\usepackage{multicol}
+
+\usepackage{xcolor}
+
+\usepackage{amsmath, amsfonts, mathtools, amsthm, amssymb}
+\usepackage{mathrsfs}
+\usepackage{bm}
+
+\newcommand\N{\ensuremath{\mathbb{N}}}
+\newcommand\R{\ensuremath{\mathbb{R}}}
+\newcommand\Z{\ensuremath{\mathbb{Z}}}
+\newcommand\Q{\ensuremath{\mathbb{Q}}}
+\newcommand\C{\ensuremath{\mathbb{C}}}
+
+% Contradiction
+\usepackage{stmaryrd}
+\newcommand\contra{\scalebox{1.5}{$\lightning$}}
+% Strikethrough cancel
+\usepackage{cancel}
+
+% Put x \to \infty below \lim
+\let\svlim\lim\def\lim{\svlim\limits}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+
+\NewTcbTheorem[number within=section]{thm}{Theorem}{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+\NewTcbTheorem[number within=section]{dfn}{Definition}{colback=blue!5,colframe=blue!35!black,fonttitle=\bfseries}{df}
+\NewTcbTheorem[number within=section]{prf}{Proof}{colback=yellow!5,colframe=yellow!35!black,fonttitle=\bfseries}{pf}
+\NewTcbTheorem[number within=section]{ex}{Exercise}{colback=black!15,colframe=blue!70,fonttitle=\bfseries,lowerbox=visible}{ex}
+
+\newtcbox{\mathhl}[1][1]{
+    notitle,
+    nophantom,
+    nobeforeafter,
+    math upper,
+    colframe=blue,
+    colback=black!15,
+    #1,
+}
+
+\author{Sam Vasquez}
+
